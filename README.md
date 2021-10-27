@@ -1,16 +1,16 @@
-#### `second column`
+##### `second column`
 ```bash
 echo -e "Lorem\tipsum\tdolor\tsit\tamet" | awk '{print $2}'
 ```
 
-#### `culumn via cut`
+##### `culumn via cut`
 ```bash
 echo -e "Lorem\tipsum\tdolor\tsit\tamet" | cut -d" " -f1
 echo -e "Lorem\tipsum\tdolor\tsit\tamet" | cut -d$'\t' -f3
 echo -e "Lorem\tipsum\tdolor\tsit\tamet" | cut -d$'\t' -f1-2
 ```
 
-#### `sort / uniq`
+##### `sort / uniq`
 ```bash
 cat file.txt | sort | uniq
 cat file.txt | sort | uniq -c 
