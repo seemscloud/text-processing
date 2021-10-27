@@ -14,9 +14,9 @@ cat file.txt | sort | uniq -c
 ```
 
 ```bash
-cat /etc/passwd | tail -n +3                      # without first two line
+cat /etc/passwd | tail -n +3
 
-cat /etc/passwd  | head -n -2                     # without last two line
+cat /etc/passwd  | head -n -2
 ```
 
 
